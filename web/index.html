@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Landing page template built with HTML and Bootstrap 4 for presenting training courses, classes, workshops and for convincing visitors to register using the form.">
+    <meta name="author" content="Inovatik">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+    <meta property="og:site_name" content="" /> <!-- website name -->
+    <meta property="og:site" content="" /> <!-- website link -->
+    <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>KEEI Developers</title>
+
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,600,700,700i&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Favicon  -->
+    <link rel="icon" href="images/qmiilogo.png">
+
+    <!-- <style>
+        @media (max-width: 767px) {
+            .slider-1 .swiper-slide img {
+                max-width: 100%;
+                height: auto;
+                border-radius: 0; /* radiusni o'chirish uchun */
+            }
+        }
+        .slider-1 .swiper-slide img {
+            width: 100%;
+            height: 200px; /* or whatever height you want */
+            object-fit: cover;
+            border-radius: 50%; /* or adjust as needed */
+        }
+    </style> -->
+
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-wrapper {
+            width: 100%;
+            /* or adjust as needed */
+            height: 30% !important;
+            /* or adjust as needed */
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <!-- Preloader -->
+    <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div>
+    <!-- end of preloader -->
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+
+        <!-- Text Logo - Use this if you don't have a graphic logo -->
+        <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Corso</a> -->
+
+        <!-- Image Logo -->
+        <a class="navbar-brand logo-image" href="index.html"><img style="height: 50px !important; width: 60px;"
+                src="images/qmiilogo.png" alt="alternative"></a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-awesome fas fa-bars"></span>
+            <span class="navbar-toggler-awesome fas fa-times"></span>
+        </button>
+        <!-- end of mobile menu toggle button -->
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#register">Biz haqimizda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#project">Portfolio</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link page-scroll" href="#contact">Bog'lanish</a>
+                </li>
+            </ul>
+            <span class="nav-item social-icons">
+                <span class="fa-stack">
+                    <a href="tel:+998996671529">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-phone fa-stack-1x"></i>
+                    </a>
+                </span>
+                <span class="fa-stack">
+                    <a href="https://t.me/AzizbekGulomov">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fab fa-telegram fa-stack-1x"></i>
+                    </a>
+                </span>
+            </span>
+        </div>
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <div class="countdown">
+                            <span id="clock"></span>
+                        </div>
+                        <h1>KEEI Developers</h1>
+                        <p class="p-large"> <b>KEEIDEVELOPERS</b> - barcha IT xizmatlarni o'z ichiga oluvchi autsoring
+                            ta'minot korxonasidir </p>
+                        <a class="btn-solid-lg page-scroll" href="#register">BARCHA XIZMATLAR</a>
+                        <a class="btn-outline-lg page-scroll" href="#instructor">PORTFOLIO</a>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+
+        <!-- Image Slider -->
+        <div class="outer-container">
+            <div class="slider-container">
+                <div class="swiper-container image-slider-1">
+                    <div class="swiper-wrapper">
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-1.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-2.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                        <!-- Slide -->
+                        <div class="swiper-slide">
+                            <img class="img-fluid" src="images/details-slide-3.jpg" alt="alternative">
+                        </div>
+                        <!-- end of slide -->
+
+                    </div> <!-- end of swiper-wrapper -->
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- end of add arrows -->
+
+                </div> <!-- end of swiper-container -->
+            </div> <!-- end of slider-container -->
+        </div> <!-- end of outer-container -->
+        <!-- end of image slider -->
+
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+
+    <!-- Registration -->
+   
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-1 -->
+    <!-- end of registration -->
+
+    <br><br><br><br><br><br>
+    <!-- Partners -->
+    <div class="slider-1 mt-5" id="project" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Biz yaratgan startapplar</h3>
+
+                    <!-- Image Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container image-slider-2">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img style="border-radius: 50%; width: 300px !important;" class="img-fluid"
+                                        src="images/stizim-removebg-preview.png" alt="alternative">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img style="border-radius: 50%;" class="img-fluid" src="images/rentor.png"
+                                        alt="alternative">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img style="border-radius: 50%;" class="img-fluid"
+                                        src="images/technikon-removebg-preview.png" alt="alternative">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img style="border-radius: 50%;" class="img-fluid"
+                                        src="images/checkielts-removebg-preview.png" alt="alternative">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img style="border-radius: 50%; " class="img-fluid"
+                                        src="images/wonders-removebg-preview.png" alt="alternative">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img style="border-radius: 50%; " class="img-fluid"
+                                        src="images/lifeline-removebg-preview.png" alt="alternative">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img style="border-radius: 50%; " class="img-fluid"
+                                        src="images/omax-removebg-preview.png" alt="alternative">
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <img style="border-radius: 50%; height: 200px;" class="img-fluid"
+                                        src="images/metal-savdo-removebg-preview.png" alt="alternative">
+                                </div>
+
+
+
+                            </div> <!-- end of swiper-wrapper -->
+                        </div> <!-- end of swiper container -->
+                    </div> <!-- end of slider-container -->
+                    <!-- end of image slider -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div>
+
+
+    <!-- Instructor -->
+    <div id="instructor" class="basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img style="height: 400px;" class="img-fluid" src="images/qmiilogo.png" alt="alternative">
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>KEEI DEVELOPERS</h2>
+                        <p> Informatsion texnologiyalar sohasida <b>Oliy ta‘lim muassasalari, xususiy ta'lim ,korxona va
+                                tashkilotlar, ishlab chiqarish va xizmat ko'rsatish</b> kabi sektorlarni
+                            avtomatlashtirish, tizimlashtirish va elektronlashtirish orqali xizmat ko'rsatadigan IT
+                            korxonasi, 10 ga yaqin, jumladan: Oliy ta'lim muassasalarining ta'lim va xizmat
+                            jarayonlarini tashkil etish uchun dasturiy ta'minot, biznes uchun dasturiy ta'minot, reklama
+                            va informatsion web ilovalar, marketing va grafik dizayn kabi xizmatlarni ko'rsatib
+                            borayotgan IT korxonasidir</p>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-1 -->
+    <!-- end of instructor -->
+
+
+    <!-- Description -->
+    <div id="description" class="basic-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2><b><span style="color: #ffbd50;">KEEI DEVELOPERS</span></b> boshqalardan qanday afzallik taklif
+                        qila oladi ?</h2>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-6">
+                    <ul class="list-unstyled li-space-lg first">
+                        <li class="media">
+                            <i class="bullet">1</i>
+                            <div class="media-body">
+                                <h4>Xalqaro kompaniyalar tajribasidagi dasturchilar xizmati</h4>
+                                <p>IT Park rezidensiyasi, Datagaze, Epam systems kabi kompaniyalar dasturchi
+                                    muhandislari bilan birga co-working</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <i class="bullet">2</i>
+                            <div class="media-body">
+                                <h4>10dan ortiq biznesni IT orqali qo'llab quvvatlanishi</h4>
+                                <p>Jumladan: 0-MAX qurilish mahsulotlari zavodi, IELTS Wonders markazi, Bahor aksessuar
+                                    supermarketi, Sam-tex metall savdo korxonasi kabi bizneslarga yaratib berilgan
+                                    dasturiy ta'minotlar tajribasi</p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <ul class="list-unstyled li-space-lg second">
+                        <li class="media">
+                            <i class="bullet">3</i>
+                            <div class="media-body">
+                                <h4>Har bir yaratilgan dasturlarning Android, IOS, Desktop kabi tizimlar uchun
+                                    versiyalari</h4>
+                                <p>Yaratilgan barcha startapp va ilovalarning foydalanuvchining mobil qurilmasi va
+                                    kompyuteri uchun o'zi istagan ko'rinishda ishlata olishi</p>
+                            </div>
+                        </li>
+                        <li class="media">
+                            <i class="bullet">5</i>
+                            <div class="media-body">
+                                <h4>Qulay narx va sifatli ish</h4>
+                                <p> Viloyatning rivojlanayotgan IT salohiyati va ko'nikmasini nuqtai nazaridan kelib
+                                    chiqqan xizmat narxlari </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of description -->
+
+
+
+    <!-- <div class="basic-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>Who Should Attend The SEO Training Course</h2>
+                        <p>This course is for anyone passionate about the web and especially fit for those seeking to improve their online presence for company websites and blogs </p>
+                        <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox">LIGHTBOX</a>
+                    </div> 
+                </div>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/students.jpg" alt="alternative">
+                </div> 
+            </div> 
+        </div> 
+    </div> -->
+
+
+
+    <!-- Details Lightbox -->
+    <div id="details-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
+        <div class="container">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                <div class="col-lg-8">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/details-lightbox.jpg" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-4">
+                    <h3>SEO Training Course</h3>
+                    <hr>
+                    <h5>For everybody</h5>
+                    <p>The training course is dedicates to anyone passionate about the web and in need of improving
+                        their current online presence.</p>
+                    <ul class="list-unstyled li-space-lg">
+                        <li class="media">
+                            <i class="fas fa-square"></i>
+                            <div class="media-body">Link building framework</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i>
+                            <div class="media-body">Know your current position</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i>
+                            <div class="media-body">Partnering with blogs</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i>
+                            <div class="media-body">Naming your images</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i>
+                            <div class="media-body">Creating good sitemaps</div>
+                        </li>
+                        <li class="media">
+                            <i class="fas fa-square"></i>
+                            <div class="media-body">Writing for humans</div>
+                        </li>
+                    </ul>
+                    <a class="btn-solid-reg mfp-close page-scroll" href="#register">SIGN UP</a> <a
+                        class="btn-outline-reg mfp-close as-button" href="#screenshots">BACK</a>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of lightbox-basic -->
+    <!-- end of details lightbox -->
+
+
+    <!-- Video -->
+    <div class="basic-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Video kontent</h2>
+
+                    <!-- Video Preview -->
+                    <div class="image-container">
+                        <div class="video-wrapper">
+                            <a class="popup-youtube" href="https://www.youtube.com/watch?v=WvNPDV414Lw"
+                                data-effect="fadeIn">
+                                <div class="image-wrapper">
+                                    <img class="img-fluid" src="images/qmiilogo.png" alt="alternative">
+                                </div>
+                                <span class="video-play-button">
+                                    <span></span>
+                                </span>
+                            </a>
+                        </div> <!-- end of video-wrapper -->
+                    </div><!-- end of image-container -->
+                    <!-- end of video preview -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-4 -->
+
+    <!-- Testimonials -->
+    <div class="slider-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Bizning jamoa</h3>
+
+                    <!-- Text Slider -->
+                    <div class="slider-container">
+                        <div class="swiper-container text-slider">
+                            <div class="swiper-wrapper">
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper">
+                                        <img class="img-fluid" src="images/programmer.png" alt="alternative">
+                                    </div> <!-- end of image-wrapper -->
+                                    <div class="text-wrapper">
+                                        <div class="testimonial-text">Jamoa lideri</div>
+                                        <div class="testimonial-author">Abbos Khalilov</div>
+                                    </div> <!-- end of text-wrapper -->
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper">
+                                        <img class="img-fluid" src="images/programmer.png" alt="alternative">
+                                    </div> <!-- end of image-wrapper -->
+                                    <div class="text-wrapper">
+                                        <div class="testimonial-text">Frontend dasturchi </div>
+                                        <div class="testimonial-author">Muzaffar Haydarov</div>
+                                    </div> <!-- end of text-wrapper -->
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper">
+                                        <img class="img-fluid" src="images/programmer.png" alt="alternative">
+                                    </div> <!-- end of image-wrapper -->
+                                    <div class="text-wrapper">
+                                        <div class="testimonial-text">Backend dasturchi</div>
+                                        <div class="testimonial-author">Azizbek G'ulomov</div>
+                                    </div> <!-- end of text-wrapper -->
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper">
+                                        <img class="img-fluid" src="images/programmer.png" alt="alternative">
+                                    </div> <!-- end of image-wrapper -->
+                                    <div class="text-wrapper">
+                                        <div class="testimonial-text">Grafik va 3d model mutaxassisi</div>
+                                        <div class="testimonial-author">Shohrux Nagmatov</div>
+                                    </div> <!-- end of text-wrapper -->
+                                </div> <!-- end of swiper-slide -->
+                                <!-- end of slide -->
+
+                                <!-- Slide -->
+                                <div class="swiper-slide">
+                                    <div class="image-wrapper">
+                                        <img class="img-fluid" src="images/programmer.png" alt="alternative">
+                                    </div> 
+                                    <div class="text-wrapper">
+                                        <div class="testimonial-text">Backend dasturchi</div>
+                                        <div class="testimonial-author">Firdavs Elmurodov</div>
+                                    </div> 
+                                </div> 
+                            </div> 
+
+                            <!-- Add Arrows -->
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <!-- end of add arrows -->
+
+                        </div> 
+                    </div>
+                </div> 
+            </div> 
+        </div> 
+    </div>
+
+
+    <!-- Date -->
+    <div id="date" class="basic-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-container">
+                        <h2>Jamoa tomonidan yaratilgan Startapplar 2023-yildan buyon xizmat qilib kelmoqda</h2>
+                        <p>Shu bilan birga turli kichik va yirik ko'rik tanlovlar, hakatonlar va IT turnirlarda munosib qatnashib kelmoqda</p>
+                        <!-- <a class="btn-solid-lg page-scroll" href="#register">REGISTER</a> -->
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-5 -->
+    <!-- end of date -->
+
+
+
+    <!-- <div class="form-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Stay updated with news by subscribing to our newsletter and our social channels</h3>
+
+                    
+                    <form id="newsletterForm" data-toggle="validator" data-focus="false">
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="nemail" required>
+                            <label class="label-control" for="nemail">Email</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group checkbox">
+                            <input type="checkbox" id="nterms" value="Agreed-to-Terms" required>I've read and agree to
+                            Corso's written <a href="privacy-policy.html">Privacy Policy</a> and <a
+                                href="terms-conditions.html">Terms Conditions</a>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">SIGN UP</button>
+                        </div>
+                        <div class="form-message">
+                            <div id="nmsgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+                  
+                    <div class="icon-container">
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-linkedin-in fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div> 
+                    
+
+                </div> 
+            </div> 
+        </div>
+    </div> -->
+
+
+    <!-- Contact -->
+    <div id="contact" class="form-3 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h2>Kontakt ma'lumotlari</h2>
+                        
+                        <h3>Ish ofis manzillari</h3>
+                        <ul class="list-unstyled li-space-lg">
+                            <li class="media">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="media-body">Qarshi shahar Mustaqillik shoh ko'chasi 22-uy | <br>Mo'ljal O'zbekiston Pochta binosi 4-qavati</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-mobile-alt"></i>
+                                <div class="media-body">+998 91 641 14 14 &nbsp;&nbsp;<i
+                                        class="fas fa-mobile-alt"></i>&nbsp; +998 99 667 15 29</div>
+                            </li>
+                            <li class="media">
+                                <i class="fas fa-envelope"></i>
+                                <div class="media-body"><a class="light-gray"
+                                        href="mailto:contact@zigo.com">keeidevs@gmail.com</a> <i
+                                        class="fas fa-globe"></i><a class="light-gray"
+                                        href="https://keeidevs.uz">www.keeidevs.uz</a></div>
+                            </li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+
+                    <!-- Contact Form -->
+                    <form id="contactForm" data-toggle="validator" data-focus="false">
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="cname" required>
+                            <label class="label-control" for="cname">Ism</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="cemail" required>
+                            <label class="label-control" for="cemail">Email</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control-textarea" id="cmessage" required></textarea>
+                            <label class="label-control" for="cmessage">Habar ... </label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                       
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">Yuborish</button>
+                        </div>
+                        <div class="form-message">
+                            <div id="cmsgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+                    <!-- end of contact form -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of form-3 -->
+    <!-- end of contact -->
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="footer-col first">
+                        <h5>KEEI DEVELOPERS</h5>
+                        <p class="p-small">Barcha IT xizmatlarni o'z ichiga oluvchi autsoring ta'minot korxonasidir</p>
+                    </div>
+                </div> 
+               
+                
+                <div class="col-md-3">
+                    <div class="footer-col fourth">
+                        <h5>Ijtimoiy tarmoq</h5>
+                        <p class="p-small">Bizni ijtimoiy tarmoqlarda kuzatib boring</p>
+                        <a href="#your-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#your-link">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="#your-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#your-link">
+                            <i class="fa fa-phone"></i>
+                        </a>
+                        
+                        
+                    </div>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2024</p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright -->
+    <!-- end of copyright -->
+
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="js/jquery.countdown.min.js"></script> <!-- The Final Countdown plugin for jQuery -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
+
+</html>
